@@ -7,7 +7,6 @@ describe('Todo', () => {
 
   it('should accept values from constructor', () => {
     const todo = new Todo({
-      id: 0,
       title: 'hello world',
       complete: true
     });

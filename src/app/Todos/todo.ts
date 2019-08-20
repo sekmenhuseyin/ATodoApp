@@ -3,7 +3,7 @@ export class Todo {
   title: string;
   complete: boolean;
 
-  constructor(values: Todo) {
+  constructor(values: Object) {
     Object.assign(this, values);
   }
 }
