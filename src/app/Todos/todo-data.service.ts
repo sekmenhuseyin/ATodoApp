@@ -69,6 +69,7 @@ export class TodoDataService {
     }
 
     todo.complete = !todo.complete;
+    console.log('toggle id: ' + id);
     return todo;
   }
 }
